@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #7a3611;
+    align-items: center;
+    color: aliceblue;
+ }
+
+ .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 30px;
+    gap: 5px;
+ }
+
+ .categorias{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+
+ }
+
+ .carrinho{
+    font-size: 30px;
+ }
