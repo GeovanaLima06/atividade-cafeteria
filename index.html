@@ -4,59 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Café Delicia</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <div class="logo">
-                <i class="bi bi-cup-hot"></i>
-                <p>Café Delicia</p>
+            <div class="menu-logo">
+                <i class="bi bi-cup-hot icon"></i>
+                <p class="texto-logo"> Café Delicia</p>
             </div>
-            <div class="categorias">
-                <p>Inicio </p>
-                <p>Productos</p>
-                <p> sobre nosotros</p>
-                <p>Contacto</p>
+            <ul class="lista-menu">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+            <div class="menu-icones">
+                <i class="bi bi-cart2 icon"></i>
+                <i class="bi bi-list icon"></i>
             </div>
-            <div class="carrinho"><i class="bi bi-cart"></i></div>
         </nav>
     </header>
     <main>
-        <section class="banner">
-
-            <div class="caixa-banner">
-
-                <div class="txt-banner">
-                    <p class="titulo">Bienvenido a Café Delicia</p>
-                    <p class="descricao">
-                        El mejor café artesanal y repostería fresca todos los días
-                    </p>
-                    <button class="btn-bn">Ver menú</button>
+        <section class="section-center">
+            <div class="banner">
+                <div class="elementos-banner">
 
                 </div>
+                <div class="caixa-titulo-banner">
+                    <p class="titulo-banner">
+                        Bienvenido a Café Delicia
+                    </p>
+                    <p class="texto-banner">
+                        El mejor café artesanal y repostería fresca todos los días
+                    </p>
+                    <button class="btn-banner-menu">Ver Menú</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-mid">
+            <div class="caixa-texto-produtos">
+                <div class="titulo-produtos"> Nuestros Productos</div>
+                <div class="texto-produtos">
+                    Descubre nuestra selección de cafés artesanales, repostería fresca y alimentos deliciosos preparados con los mejores ingredientes</div>
+            </div>
+            <div class="caixa-btn-produtos">
+                <button class="btn-cafe"> <i class="bi bi-cup-hot btn-icon-selected"></i> Café</button>
+                <button class="btn-confeitaria"> <i class="bi bi-cake2 btn-icon"></i>Repostería</button>
+                <button class="btn-comida"> <i class="bi bi-egg-fried"></i> Comida</button>
+            </div>
+        </section>
+        <section class="section-cards">
+            <div class="lista-produtos">
+                <!-- produtos -->
+                <div class="caixa-cards">
+             
+            </div>
             </div>
 
-        </section>
-        <section class="pag-2">
-            <div class="txt-pag2">
-                <p class="tt2">Nuestros Productos</p>
-                <p class="des2">Descubre nuestra selección de cafés artesanales, repostería fresca y alimentos deliciosos </p>
-                <p class="des2">preparados con los mejores ingredientes</p>
-            </div>
-            <div class="btns2">
-                <button class="btnfood"><i class="bi bi-cup-hot"></i> Café</button>
-                <button class="btnfood"><i class="bi bi-cake2">Repostería</i></button>
-                <button class="btnfood"><i class="bi bi-egg-fried"></i>Comida</button>
-                
-            </div>
+        
+
 
         </section>
     </main>
+    <footer>
 
+    </footer>
 </body>
 
 </html>
