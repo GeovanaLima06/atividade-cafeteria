@@ -115,3 +115,6 @@ function mostrarProdutos(produtos) {
     
     mostrarProdutos(comidas)
  })
+
+ /* produtos iniciais */
+mostrarProdutos(cafe)
